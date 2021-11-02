@@ -3,6 +3,12 @@
 
 Note: **QuickDBS.Console** project is used to test both the libraries. This project can be ignored.
 
+## NuGet Packages
+
+The following are the links to the NuGet packages. You can either use Package Manager in Visual Studio or CLI in VS Code.
+Download QuickDBS for SQLite from [QuickDBS.SQLite](https://www.nuget.org/packages/QuickDBS.SQLite/) or
+Download QuickDBS for SQL Server from [QuickDBS.SQLServer](https://www.nuget.org/packages/QuickDBS.SQLServer/)
+
 ## Features
 - Single line to connect to the database.
 - Create Tables from your Classes in the database.
