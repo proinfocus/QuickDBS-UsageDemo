@@ -4,9 +4,14 @@
 ## NuGet Packages
 
 The following are the links to the NuGet packages. You can either use Package Manager in Visual Studio or CLI in VS Code.
+
 Download QuickDBS for SQLite from [QuickDBS.SQLite](https://www.nuget.org/packages/QuickDBS.SQLite/) or
+
 Download QuickDBS for SQL Server from [QuickDBS.SQLServer](https://www.nuget.org/packages/QuickDBS.SQLServer/) or
+
 Download QuickDBS for MySql from [QuickDBS.MySQL](https://www.nuget.org/packages/QuickDBS.MySQL/)
+
+Download QuickDBS.API to generate Web APIs dynamically from the QuickDBS supported databases from [QuickDBS.API](https://www.nuget.org/packages/QuickDBS.API/)
 
 ## Features
 - Single line to connect to the database.
@@ -60,3 +65,4 @@ Apart from CRUD operations, this can be used to generate classes from the connec
 - For SQLite database examples, goto [sqlite-example](sqlite-example.md)
 - For SQL Server database examples, goto [sqlserver-example](sqlserver-example.md)
 - For MySql database examples, goto [mysql-example](mysql-example.md)
+- For Web APIs generation example, goto [api-generation](api-generation.md)
