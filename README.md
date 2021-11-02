@@ -1,9 +1,6 @@
 # QuickDBS
 "QuickDBS" short for "Quick Database Services" is a library to perform CRUD operations on SQL Server, MySql and SQLite databases quickly and easily. It works near to the metal so it is as good as using ADO with the simplicity and ease.
 
-## Build Status
-[![.NET](https://github.com/proinfocus/QuickDBS/actions/workflows/dotnet.yml/badge.svg)](https://github.com/proinfocus/QuickDBS/actions/workflows/dotnet.yml)
-
 ## NuGet Packages
 
 The following are the links to the NuGet packages. You can either use Package Manager in Visual Studio or CLI in VS Code.
