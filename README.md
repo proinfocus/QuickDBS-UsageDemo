@@ -1,13 +1,15 @@
 # QuickDBS
-"QuickDBS" short for "Quick Database Services" is a library to perform CRUD operations on SQL Server and SQLite databases quickly and easily. It works near to the metal so it is as good as using ADO with the simplicity and ease.
+"QuickDBS" short for "Quick Database Services" is a library to perform CRUD operations on SQL Server, MySql and SQLite databases quickly and easily. It works near to the metal so it is as good as using ADO with the simplicity and ease.
 
-Note: **QuickDBS.Console** project is used to test both the libraries. This project can be ignored.
+## Build Status
+[![.NET](https://github.com/proinfocus/QuickDBS/actions/workflows/dotnet.yml/badge.svg)](https://github.com/proinfocus/QuickDBS/actions/workflows/dotnet.yml)
 
 ## NuGet Packages
 
 The following are the links to the NuGet packages. You can either use Package Manager in Visual Studio or CLI in VS Code.
 Download QuickDBS for SQLite from [QuickDBS.SQLite](https://www.nuget.org/packages/QuickDBS.SQLite/) or
-Download QuickDBS for SQL Server from [QuickDBS.SQLServer](https://www.nuget.org/packages/QuickDBS.SQLServer/)
+Download QuickDBS for SQL Server from [QuickDBS.SQLServer](https://www.nuget.org/packages/QuickDBS.SQLServer/) or
+Download QuickDBS for MySql from [QuickDBS.MySQL](https://www.nuget.org/packages/QuickDBS.MySQL/)
 
 ## Features
 - Single line to connect to the database.
@@ -21,7 +23,7 @@ Download QuickDBS for SQL Server from [QuickDBS.SQLServer](https://www.nuget.org
 - Execute custom non-returning queries using *NonQuery* method.
 - Execute queries under **Transactions** using *CreateTransaction* and once done, commit them using *CommitTransaction* or rollback using *RollbackTransaction*
 
-Note: Class Name = Table Name, Property Names = Field Names. It ignores the properties which custom/user created. To illustrate it, in the following example, the property Hobby is ignore and other 2 properties are used to create the table as well as perform CRUD operations.
+Note: Class Name = Table Name, Property Names = Field Names. Always **Id** is the Auto-incrementing, Primary Key having Int64 type. It ignores the properties which are custom/user created. To illustrate it, in the following example, the property **Hobby** is ignored and other 2 properties are used to create the table as well as perform CRUD operations.
 ```
 public class Person
 {
@@ -32,7 +34,7 @@ public class Person
 ```
 
 ## Usage
-Both SQL Server and SQLite libraries of QuickDBS works very much identical with just the change in the connection string. It makes switching between SQL Server and SQLite easier.
+All SQL Server, MySql and SQLite libraries of QuickDBS works very much identical with just the change in the connection string. It makes switching between SQL Server, MySql and SQLite easier.
 It also has the ability to group different database executions under a transaction using **CreateTransaction** method following with either **CommitTransaction** or **RollbackTransaction** methods as required.
 
 The following is a simple example of how the transaction can be used.
@@ -60,3 +62,4 @@ Apart from CRUD operations, this can be used to generate classes from the connec
 ## Examples
 - For SQLite database examples, goto [sqlite-example](sqlite-example.md)
 - For SQL Server database examples, goto [sqlserver-example](sqlserver-example.md)
+- For MySql database examples, goto [mysql-example](mysql-example.md)
