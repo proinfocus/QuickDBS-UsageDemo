@@ -20,8 +20,8 @@ builder.Services.AddSingleton(databaseService);
 //Note: You need to remove or comment the following lines, once you run
 // the project and the UI pages are created. This is a one-time process.
 
-BlazorUI.BuildFromTemplate<Student>(DBType.SQLServer, true);  //Student is both model and table in database.
-BlazorUI.BuildFromTemplate<Admission>(DBType.SQLServer, true);  //Admission is both model and table in database.
+BlazorUI.BuildFor<Student>(true);  //Student is both model and table in database.
+BlazorUI.BuildFor<Admission>(true);  //Admission is both model and table in database.
 
 // If required, keep adding the models that needs the UI pages to be generated as shown above.
 ```
