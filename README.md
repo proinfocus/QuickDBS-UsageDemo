@@ -73,4 +73,4 @@ Apart from CRUD operations, this can be used to generate classes from the connec
 - For MySql database examples, goto [mysql-example](mysql-example.md)
 - For Web APIs generation example, goto [api-generation](api-generation.md)
 - For Blazor UI generation example, goto [blazor-ui-creator](blazor-ui-creator.md)
-- For Razor UI generation example, goto [razor-ui-creator](razor-example.md)
+- For Razor UI generation example, goto [razor-example](razor-example.md)
