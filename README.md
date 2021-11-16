@@ -1,7 +1,7 @@
 # QuickDBS
 "QuickDBS" short for "Quick Database Services" is a library to perform CRUD operations on SQL Server, MySql and SQLite databases quickly and easily. It works near to the metal so it is as good as using ADO with the simplicity and ease.
 
-In addition to database services, it has support libraries to generate Web APIs and Blazor UI pages dynamically and connect them via supported QuickDBS databases and that it further.
+In addition to database services, it has support libraries to generate Web APIs, Razor Pages and Blazor UI pages dynamically and connect them via supported QuickDBS databases and that it further.
 
 ## NuGet Packages
 
@@ -16,6 +16,8 @@ Download QuickDBS for MySql from [QuickDBS.MySQL](https://www.nuget.org/packages
 Download QuickDBS.API to generate Web APIs dynamically from the QuickDBS supported databases from [QuickDBS.API](https://www.nuget.org/packages/QuickDBS.API/)
 
 Download QuickDBS.Blazor to generate Blazor UI pages dynamically from the models that are connected to the QuickDBS supported databases from [QuickDBS.Blazor](https://www.nuget.org/packages/QuickDBS.Blazor/)
+
+Download QuickDBS.Razor to generate Razor pages dynamically from the models that are connected to the QuickDBS supported databases from [QuickDBS.Razor](https://www.nuget.org/packages/QuickDBS.Razor/)
 
 ## Features
 - Single line to connect to the database.
@@ -71,3 +73,4 @@ Apart from CRUD operations, this can be used to generate classes from the connec
 - For MySql database examples, goto [mysql-example](mysql-example.md)
 - For Web APIs generation example, goto [api-generation](api-generation.md)
 - For Blazor UI generation example, goto [blazor-ui-creator](blazor-ui-creator.md)
+- For Razor UI generation example, goto [razor-ui-creator](razor-example.md)
