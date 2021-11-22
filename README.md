@@ -3,6 +3,9 @@
 
 In addition to database services, it has support libraries to generate Web APIs and Blazor UI pages dynamically and connect them via supported QuickDBS databases and that it further.
 
+## Videos
+Check out sample videos [here](
+https://youtube.com/playlist?list=PLhwzBWSsUvgOIYjkQdMJACyVy6l7W_SiD)
 ## NuGet Packages
 
 The following are the links to the NuGet packages. You can either use Package Manager in Visual Studio or CLI in VS Code.
