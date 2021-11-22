@@ -14,7 +14,7 @@ QuickDBS.Blazor supports only Blazor Server apps as Blazor WebAssembly can't run
 var databaseService = new SQLServer("databasename");
 
 //Add dependency to database in the created pages.
-builder.Services.AddSingleton(databaseService);
+builder.Services.AddSingleton<IQuickDBS>(databaseService);
 
 //Generate UI for models. Each line creates UI pages for each model/table.
 //Note: You need to remove or comment the following lines, once you run
