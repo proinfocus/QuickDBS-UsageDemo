@@ -4,8 +4,21 @@
 In addition to database services, it has support libraries to generate Web APIs, Razor Pages and Blazor UI pages dynamically and connect them via supported QuickDBS databases and that it further.
 
 ## Videos
-Check out sample videos [here](
-https://youtube.com/playlist?list=PLhwzBWSsUvgOIYjkQdMJACyVy6l7W_SiD)
+Check out videos on YouTube showing the use of QuickDBS libraries.
+
+#### Blazor Pages for CRUD operations from SQL Server using QuickDBS.Blazor and QuickDBS.SQLServer
+[![image](https://img.youtube.com/vi/nsAMk9xtXpc/0.jpg)](https://www.youtube.com/watch?v=nsAMk9xtXpc)
+---
+
+#### Web APIs from AdventureWorksLT2019 database on SQL Server using QuickDBS.API and QuickDBS.SQLServer
+[![image](https://img.youtube.com/vi/WVYaf8EyzLs/0.jpg)](https://www.youtube.com/watch?v=WVYaf8EyzLs)
+---
+
+#### QuickDBS.SQLServer in Action!
+[![image](https://img.youtube.com/vi/IAANCNS7pc4/0.jpg)](https://www.youtube.com/watch?v=IAANCNS7pc4)
+
+
+
 ## NuGet Packages
 
 The following are the links to the NuGet packages. You can either use Package Manager in Visual Studio or CLI in VS Code.
