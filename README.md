@@ -3,6 +3,11 @@
 
 In addition to database services, it has support libraries to generate Web APIs, Razor Pages and Blazor UI pages dynamically and connect them via supported QuickDBS databases and take it further.
 
+### Change Logs
+- **Version 1.0.2** - Core, SQLite, SQL Server, MySQL
+  - Now supports **Guid** as Id using **Insert** method.
+  - Enum data types for auto mapping of models and data.
+
 ## Videos
 Check out videos on YouTube showing the use of QuickDBS libraries.
 
@@ -40,7 +45,7 @@ Download QuickDBS.Razor to generate Razor pages dynamically from the models that
 - Create Tables from your Classes in the database.
 - Generate Classes under **Models** folder in your project from the tables of the selected database.
 - Read records using *GetById*, *GetAll*, *GetAllWhere* methods.
-- Add records using *Create* and *CreateMany* methods.
+- Add records using *Create*, *Insert* and *CreateMany* methods.
 - Update records using *UpdateById* and *UpdateMany* methods.
 - Delete records using *DeleteById* and *DeleteMany* methods.
 - Get custom records by custom return queries using *Query* method.
