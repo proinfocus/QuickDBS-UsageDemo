@@ -1,11 +1,14 @@
 # QuickDBS
 "QuickDBS" short for "Quick Database Services" is a library to perform CRUD operations on SQL Server, MySql and SQLite databases quickly and easily. It works near to the metal so it is as good as using ADO with the simplicity and ease.
 
-In addition to database services, it has support libraries to generate Web APIs, Razor Pages and Blazor UI pages dynamically and connect them via supported QuickDBS databases and take it further.
+In addition to database services, it has support libraries to generate Web APIs (Minimal as well as Controller based), Razor Pages and Blazor UI pages dynamically and connect them via supported QuickDBS databases and take it further.
 
 ### Change Logs
+- **Version 1.0.1.8** - API
+  - Now supports creating Minimal APIs using `CreateMinimalAPIs` method.
+
 - **Version 1.0.2** - Core, SQLite, SQL Server, MySQL
-  - Now supports **Guid** as Id using **Insert** method.
+  - Now supports **Guid** as Id using `Insert` method.
   - Enum data types for auto mapping of models and data.
 
 ## Videos
@@ -44,13 +47,13 @@ Download QuickDBS.Razor to generate Razor pages dynamically from the models that
 - Single line to connect to the database.
 - Create Tables from your Classes in the database.
 - Generate Classes under **Models** folder in your project from the tables of the selected database.
-- Read records using *GetById*, *GetAll*, *GetAllWhere* methods.
-- Add records using *Create*, *Insert* and *CreateMany* methods.
-- Update records using *UpdateById* and *UpdateMany* methods.
-- Delete records using *DeleteById* and *DeleteMany* methods.
-- Get custom records by custom return queries using *Query* method.
-- Execute custom non-returning queries using *NonQuery* method.
-- Execute queries under **Transactions** using *CreateTransaction* and once done, commit them using *CommitTransaction* or rollback using *RollbackTransaction*
+- Read records using `GetById`, `GetAll`, `GetAllWhere` methods.
+- Add records using `Create`, `Insert` and `CreateMany` methods.
+- Update records using `UpdateById` and `UpdateMany` methods.
+- Delete records using `DeleteById` and `DeleteMany` methods.
+- Get custom records by custom return queries using `Query` method.
+- Execute custom non-returning queries using `NonQuery` method.
+- Execute queries under **Transactions** using `CreateTransaction` and once done, commit them using `CommitTransaction` or rollback using `RollbackTransaction`
 
 Note: Class Name = Table Name, Property Names = Field Names. Always **Id** is the Auto-incrementing, Primary Key having Int64 type. It ignores the properties which are custom/user created. To illustrate it, in the following example, the property **Hobby** is ignored and other 2 properties are used to create the table as well as perform CRUD operations.
 ```
