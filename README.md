@@ -1,7 +1,10 @@
 # QuickDBS
-"QuickDBS" short for "Quick Database Services" is a library to perform CRUD operations on SQL Server, MySql and SQLite databases quickly and easily. It works near to the metal so it is as good as using ADO with the simplicity and ease.
+"QuickDBS" short for "Quick Database Services" is a library to perform CRUD operations on **SQL Server**, **MySql** and **SQLite** databases quickly and easily. It works near to the metal so it is as good as using ADO with the simplicity and ease.
 
-In addition to database services, it has support libraries to generate Web APIs (Minimal as well as Controller based), Razor Pages and Blazor UI pages dynamically and connect them via supported QuickDBS databases and take it further.
+In addition to database services, it has support libraries to generate **Web APIs** (Minimal as well as Controller based), **Razor Pages** and **Blazor UI** pages dynamically and connect them via supported QuickDBS databases and take it further.
+
+QuickDBS now has an **ObjectDB** library for storing data in Json objects on the filesystem. The methods are similar except ```Query```, ```NonQuery```, methods related to ```Transactions```, etc. You can use methods such as ```Create```, ```CreateMany```, ```Insert```, ```UpdateById```, ```UpdateMany```, ```DeleteById```, ```DeleteMany```, ```GetAll```, ```GetById```, ```GetAllWhere``` as you used for relational database libraries.
+
 
 ### Change Logs
 - **Version 1.0.1.8** - API
@@ -36,6 +39,8 @@ Download QuickDBS for SQLite from [QuickDBS.SQLite](https://www.nuget.org/packag
 Download QuickDBS for SQL Server from [QuickDBS.SQLServer](https://www.nuget.org/packages/QuickDBS.SQLServer/) or
 
 Download QuickDBS for MySql from [QuickDBS.MySQL](https://www.nuget.org/packages/QuickDBS.MySQL/)
+
+Download QuickDBS for ObjectDB from [QuickDBS.ObjectDB](https://www.nuget.org/packages/QuickDBS.ObjectDB/)
 
 Download QuickDBS.API to generate Web APIs dynamically from the QuickDBS supported databases from [QuickDBS.API](https://www.nuget.org/packages/QuickDBS.API/)
 
@@ -95,6 +100,7 @@ Apart from CRUD operations, this can be used to generate classes from the connec
 - For SQLite database examples, goto [sqlite-example](sqlite-example.md)
 - For SQL Server database examples, goto [sqlserver-example](sqlserver-example.md)
 - For MySql database examples, goto [mysql-example](mysql-example.md)
+- For ObjectDB database examples, goto [objectdb-example](objectdb-example.md)
 - For Web APIs generation example, goto [api-generation](api-generation.md)
 - For Blazor UI generation example, goto [blazor-ui-creator](blazor-ui-creator.md)
 - For Razor UI generation example, goto [razor-example](razor-example.md)
